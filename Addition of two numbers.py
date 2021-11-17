@@ -1,16 +1,18 @@
-Addition of two numbers
-
-# Python3 program to add two numbers 
+Python3 program to add two numbers 
 
   
 
-num1 = 15
+number1 = input("First number: ") 
 
-num2 = 12
+number2 = input("\nSecond number: ") 
 
   
-# Adding two nos 
+# Adding two numbers 
+# User might also enter float numbers 
 
-sum = num1 + num2 
+sum = float(number1) + float(number2) 
 
-print ( "entet two values")
+  
+# Display the sum 
+# will print value in float 
+print("Sum of {0} and {1} is {2}" .format(num1, num2, sum)) 
